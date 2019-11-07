@@ -5,7 +5,7 @@ Test of cmake commands with a webcam_capture program from beta_robots
 ##
 
 
-We do the Fork of the webcam_capture repository from beta_robots usser and clone it in our computer.
+We do the Fork of the webcam_capture repository from beta_robots user and clone it in our computer.
 ```
 git clone https://github.com/adiaz92/webcam_capture.git
 Clonando en 'webcam_capture'...
