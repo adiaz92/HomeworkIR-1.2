@@ -5,7 +5,7 @@ Test of cmake commands with a webcam_capture program from beta_robots
 ##
 
 
-We do the Fork of the webcamp repository and clone it in our computer.
+We do the Fork of the webcam_capture repository from beta_robots usser and clone it in our computer.
 ```
 git clone https://github.com/adiaz92/webcam_capture.git
 Clonando en 'webcam_capture'...
@@ -13,13 +13,13 @@ remote: Enumerating objects: 62, done.
 remote: Total 62 (delta 0), reused 0 (delta 0), pack-reused 62
 Desempaquetando objetos: 100% (62/62), listo.
 ```
-we make a build directory in our computer and change to that directory.
+We make a build directory in our computer and change to that directory.
 ```
 ~$ cd webcam_capture/
 ~/webcam_capture$ mkdir build
 ~/webcam_capture$ cd build
 ```
-Then we can build and execute the program with de cmake command.
+Then we can build and execute the program with de "cmake" command.
 ```
 ~/webcam_capture/build$ cmake ..
 -- The C compiler identification is GNU 7.4.0
@@ -41,7 +41,7 @@ Then we can build and execute the program with de cmake command.
 -- Generating done
 -- Build files have been written to: /home/shaenar/webcam_capture/build
 ```
-And execute make command to construct the executable.
+And execute "make" command to construct the executable.
 ```
 ~/webcam_capture/build$ make
 Scanning dependencies of target webcam_capture
